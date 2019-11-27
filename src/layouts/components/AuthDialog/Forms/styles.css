@@ -1,0 +1,47 @@
+
+/* Override Login/Register forms styles */
+
+.buttonsHolder{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.buttonsHolder div{
+  margin: 20px 0;
+}
+
+.buttonsHolder button{
+  margin-bottom: 5px;
+}
+
+.btnFacebook, .btnGoogle{
+  text-transform: capitalize;
+  min-width: 230px;
+}
+
+.ant-form-item-label {
+  /* margin: 0 !important; */
+  line-height: 0.75rem !important;
+  /* padding: 0px !important; */
+}
+
+.create_project_form_input {
+  border-radius: 0;
+  height: 3.3125rem;  
+}
+.ant-select-selection {
+  border-radius: 0;
+  height: 3.3125rem;
+  padding: 0.6rem 0;
+}
+
+.ant-select-selection::-webkit-input-placeholder {
+  line-height: 3.2rem;
+  vertical-align: middle;
+}
+
+textarea.ant-input {
+  height: 8.75rem;
+  padding: 0.875rem;
+}

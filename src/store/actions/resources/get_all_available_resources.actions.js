@@ -1,0 +1,10 @@
+export const GET_ALL_AVAILABLE_RESOURCES = 'GET_ALL_AVAILABLE_RESOURCES';
+export const GET_ALL_AVAILABLE_RESOURCES_ERROR = 'GET_ALL_AVAILABLE_RESOURCES_ERROR';
+export const GET_ALL_AVAILABLE_RESOURCES_SUCCESS = 'GET_ALL_AVAILABLE_RESOURCES_SUCCESS';
+
+export const getAllAvailableResources = (data) => {
+    return {
+        type: GET_ALL_AVAILABLE_RESOURCES,
+        payload: data
+    }
+};

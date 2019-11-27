@@ -1,0 +1,10 @@
+export const GET_ALL_REQUESTED_RESOURCES = 'GET_ALL_REQUESTED_RESOURCES';
+export const GET_ALL_REQUESTED_RESOURCES_ERROR = 'GET_ALL_REQUESTED_RESOURCES_ERROR';
+export const GET_ALL_REQUESTED_RESOURCES_SUCCESS = 'GET_ALL_REQUESTED_RESOURCES_SUCCESS';
+
+export const getAllRequestedResources = (data) => {
+    return {
+        type: GET_ALL_REQUESTED_RESOURCES,
+        payload: data
+    }
+};

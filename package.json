@@ -1,0 +1,75 @@
+{
+  "name": "interswitchconsole",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/styles": "^4.5.0",
+    "antd": "^3.24.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "cuid": "^2.1.6",
+    "express-favicon": "^2.0.1",
+    "flag-icon-css": "^3.4.2",
+    "formsy-react": "^1.1.5",
+    "history": "^4.10.1",
+    "jss": "^10.0.0",
+    "jss-extend": "^6.2.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "material-ui-slider": "^3.0.8",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.8.3",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-cookie": "^0.4.8",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-credit-card-input": "^1.1.5",
+    "react-dom": "^16.10.2",
+    "react-draggable": "^4.0.3",
+    "react-jss": "^10.0.0",
+    "react-redux": "^7.1.1",
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-select": "^3.0.8",
+    "react-star-ratings": "^2.3.0",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.1",
+    "shortid": "^2.2.15",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "npm run tailwind && react-scripts start",
+    "build": "sh -ac '. ./.env; npm run tailwind && GENERATE_SOURCEMAP=false react-scripts build'",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tailwind": "./node_modules/.bin/tailwind build ./src/styles/tailwind/tailwind.css -c ./tailwind-config.js -o ./src/styles/tailwind.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "react-test-renderer": "^16.11.0",
+    "tailwindcss": "^1.1.2"
+  }
+}

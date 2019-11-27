@@ -1,0 +1,30 @@
+.cta-button {
+    padding: 1rem 1.5625rem;
+    background: #329EFA;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.cta-button:hover {
+    color: white
+}
+
+.section-header {
+    font-size: 2rem;
+    font-family: Helvetica;
+    font-style: normal;
+    line-height: 150%;
+    color: #00425F;
+    margin-bottom: 1rem;
+}
+
+.section-topic {
+    margin: 0.4rem 0;
+    padding: 0.3rem 0;
+    color: #00425F;
+    opacity: 0.9;
+    line-height: 150%;
+    font-size: 1.25rem;
+    font-family: Helvetica;
+    font-style: normal;
+}

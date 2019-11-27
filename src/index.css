@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button:focus {
+  outline:0 !important;
+  box-shadow: none !important; 
+}
+
+.dropdown-toggle.nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-toggle.nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-item.active, .dropdown-item:active{
+  background: rgb(246, 47, 94);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background: rgb(255, 92, 130);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ant-select-dropdown {
+  z-index: 9999 !important;
+}
+
+.ant-popover-placement-top {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin: 0 auto !important;
+  z-index: 9999 !important;
+  max-width: 515px;
+}
+
+#dashboard a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#dashboard main {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 64px; */
+    padding-top: 1.25rem;
+    padding-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding-bottom: 4rem;
+    flex: 1 1 0%;
+}
+
+#dashboard main #mainWrapper {
+  margin-top: 75px;
+}
+
+#testInput {
+  height: 51px !important;
+}
+
+.config-view .ant-tabs {
+  margin-top: 0 !important;
+}
+
+.config-view .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-nav-container {
+  height: 61px;
+}
+
+.config-view .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  height: 61px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.console-view input:last-child, .ant-input-group-addon:last-child {
+  padding: 0;
+  margin: 0;
+}
+
+.console-view .ant-input-group > .ant-input:first-child, .ant-input-group-addon:first-child {
+  width: 135px;
+}
+
+#config-view .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-nav-container {
+  height: auto;
+  width: auto;
+}
+#config-view .ant-tabs-nav {
+  width: 100%;
+  height: 61px;
+}
+
+#config-view .ant-tabs-nav > div:first-child {
+  width: 100%;
+  height: 100%;
+}
+
+#config-view .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  background: #FFFFFF !important;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 26px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: #9FA1A6 !important;
+}
+
+#config-view .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  background: #E8EAED !important;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #606266 !important;
+}
+
+
+#config-view .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  width: calc(100% / 4);
+  height: 100%;
+}
+.ant-tree li {
+  margin: 0;
+  padding: 4px 0;
+  white-space: nowrap;
+  list-style: none;
+  outline: 0;
+  text-overflow: ellipsis;
+  padding-right: 5px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.ant-tree li .ant-tree-node-content-wrapper {
+  display: inline !important;
+}
+
+.ant-tree-node-content-wrapper > span.ant-tree-iconEle {
+    margin-right: 31px !important;
+}
+
+.ant-collapse-header {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #404145;
+  border-bottom: 1px solid rgba(160, 60, 60, 0.1);
+}
+
+.ant-collapse-content .ant-checkbox-group .ant-row {
+  height: 76.5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(160, 60, 60, 0.1);
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  height: 76px;
+}
+
+.ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content > .ant-collapse-content-box {
+  padding: 0;
+  padding-left: 60px;
+}
+
+
+.ant-collapse-content .ant-checkbox-group label {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #404145;
+  margin-left: 18px;
+}
+
+/* .ant-collapse-content .ant-checkbox-group .custom-checkbox {
+  height: 24px;
+  width: 24px;
+} */
+
+
+@media (max-width: 768px){
+  .MuiTypography-body1 {
+    float: left;
+  }
+}
+
+@media (min-width: 1024px){
+  #dashboard main {
+    padding-left: 0px;
+    margin-right: 1.5rem;
+    margin-left: calc(230px + 65px);
+    /* max-width: 60rem; */
+    padding-bottom: 9rem;
+  }
+}
+
+.css-2b097c-container {
+  width: 100%;
+}
+.css-26l3qy-menu {
+  position: relative !important;
+}
